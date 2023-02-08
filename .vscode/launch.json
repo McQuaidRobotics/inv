@@ -10,7 +10,15 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["-p", "Falcon 500", "-y", "2023", "-q", "1"],
+            "justMyCode": true
+        },
+        {
+            "name": "Python: CreateLabels",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["-p", "Radio", "-y", "2023", "-q", "1", "-n", "Ammonia", "-c", "77"],
             "justMyCode": true
         }
     ]
